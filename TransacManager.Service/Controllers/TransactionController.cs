@@ -12,6 +12,11 @@ namespace TransacManager.Service.Controllers
     public class TransactionController : ApiController
     {
         // GET: api/Transaction/5
+        /// <summary>
+        /// Method to get a transaction by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>json object of a transaction</returns>
         public IHttpActionResult Get(int id)
         {
             TransactionRepository transacRep = new TransactionRepository();
