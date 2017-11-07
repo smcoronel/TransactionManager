@@ -28,3 +28,9 @@ Deploying
    If you inspect the javascript code, you can see that the response is a json object.
    
 
+Author:
+
+Sandra Coronel
+Phone: 3002644292
+Email: smcoronel@hotmail.com
+
