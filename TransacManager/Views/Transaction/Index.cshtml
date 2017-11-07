@@ -1,0 +1,28 @@
+﻿@model IEnumerable<TransacManager.Models.TransactionViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Search", "Transaction", FormMethod.Get))
+{
+    <p>
+        Search By: @Html.DropDownList("SearchType", new List<SelectListItem>
+                    {
+                        new SelectListItem{ Text="IsFraud", Value = "1" },
+                        new SelectListItem{ Text="NameDest", Value = "2" },
+                        new SelectListItem{ Text="TransactionDate", Value = "3" }
+                    },
+                    new { @class = "text-danger" })
+        @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@Html.Partial("TransactionList")
