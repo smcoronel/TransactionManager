@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionManager", "TransactionManager\TransactionManager.csproj", "{31EB1E82-3726-48DD-A17D-3C68ED91F2DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransacManager.Core", "TransacManager.Core\TransacManager.Core.csproj", "{D7B8C82A-1630-47F4-9D10-7953A888E164}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransacManager.DataAccess", "TransacManager.Data\TransacManager.DataAccess.csproj", "{F68A1CB0-62DB-4054-9697-F91B571303BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransacManager", "TransacManager\TransacManager.csproj", "{04BFD88E-328C-4CD8-83DC-DB76A4816939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransacManager.Service", "TransacManager.Service\TransacManager.Service.csproj", "{FE98F07C-A586-46DE-88ED-515ED5F157B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31EB1E82-3726-48DD-A17D-3C68ED91F2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31EB1E82-3726-48DD-A17D-3C68ED91F2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31EB1E82-3726-48DD-A17D-3C68ED91F2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31EB1E82-3726-48DD-A17D-3C68ED91F2DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7B8C82A-1630-47F4-9D10-7953A888E164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7B8C82A-1630-47F4-9D10-7953A888E164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B8C82A-1630-47F4-9D10-7953A888E164}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{04BFD88E-328C-4CD8-83DC-DB76A4816939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04BFD88E-328C-4CD8-83DC-DB76A4816939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04BFD88E-328C-4CD8-83DC-DB76A4816939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE98F07C-A586-46DE-88ED-515ED5F157B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE98F07C-A586-46DE-88ED-515ED5F157B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE98F07C-A586-46DE-88ED-515ED5F157B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE98F07C-A586-46DE-88ED-515ED5F157B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
